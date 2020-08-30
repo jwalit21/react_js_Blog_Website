@@ -1,0 +1,28 @@
+.navbar{
+    padding: 10px 5px;
+    border: yellow solid 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    margin: 0; /* bec ul has default margin and padding */
+    padding: 0;
+}
+
+.navbar ul li{
+    list-style: none; /* bec li has default */
+    display: inline-block;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 0 6px;
+    color: rgb(88, 68, 68);
+    font-weight: 500;
+}
+
+.searchInput{
+    border: 0;
+}
